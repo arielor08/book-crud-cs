@@ -48,7 +48,7 @@ namespace CrudNetCore5.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Book");
+                    b.ToTable("Books");
                 });
 #pragma warning restore 612, 618
         }

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrudNetCore5.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210309055023_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20210309162216_BookModel")]
+    partial class BookModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -50,7 +50,7 @@ namespace CrudNetCore5.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Book");
+                    b.ToTable("Books");
                 });
 #pragma warning restore 612, 618
         }

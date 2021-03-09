@@ -14,6 +14,6 @@ namespace CrudNetCore5.Data
 
         }
 
-        public DbSet<Book> Book { get; set; }
+        public DbSet<Book> Books { get; set; }
     }
 }
